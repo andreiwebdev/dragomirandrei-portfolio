@@ -1,0 +1,88 @@
+$light: "Muli", sans-serif;
+$bold: "Passion One", cursive;
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-family: $bold;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #262626;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  letter-spacing: 2px;
+}
+
+.heading_h1 {
+  font-family: $light;
+  margin-top: 15%;
+}
+
+.info_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10%;
+  ul {
+    list-style-type: none;
+  }
+  .info_li_child {
+    margin-top: 2em;
+  }
+  li {
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  a {
+    color: black;
+  }
+}
+
+.info_ul:before {
+  color: #a9a9a9;
+  content: attr(aria-label);
+  font-size: 13px;
+  letter-spacing: 3px;
+  font-family: $light;
+  text-transform: uppercase;
+}
+
+.portfolio {
+  margin-top: 2em;
+  p {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+}
+
+.portfolio_box {
+  background-color: #f9f7f7;
+  border-radius: 4px;
+  padding: 40px;
+  img {
+    width: 80%;
+    cursor: pointer;
+  }
+}
+
+.nw {
+  img {
+    width: 60%;
+  }
+}
+
+.website {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
