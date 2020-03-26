@@ -68,6 +68,10 @@
   text-transform: uppercase;
 }
 
+.info_ul {
+  margin-top: 20px;
+}
+
 .portfolio {
   margin-top: 2em;
 }
